@@ -1,8 +1,23 @@
-const romans = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
-const integers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+console.log('******************************************************');
+console.log('* Conversor de Algorismos Romanos e Números Inteiros *');
+console.log('******************************************************');
 
-console.log('==== Olá, este é o conversor de Algorismos Romanos e Números Inteiros ====');
-console.log('');
+const romans = [
+  'M',
+  'CM',
+  'D',
+  'CD',
+  'C',
+  'XC',
+  'L',
+  'XL',
+  'X',
+  'IX',
+  'V',
+  'IV',
+  'I'
+];
+const integers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 
 const isValidRoman = function validateRoman(userInput) {
   if (typeof userInput !== 'string' || userInput === '') {
@@ -14,7 +29,7 @@ const isValidNumber = function validateNumber(userInput) {
   if (typeof userInput !== 'int' || userInput === 0) {
     return false;
   }
-}
+};
 
 function romanToInt(roman) {
   roman = roman.toUpperCase();
@@ -32,7 +47,7 @@ function romanToInt(roman) {
   } else {
     return 'Resultado: ' + result;
   }
-} 
+}
 
 function intToRoman(number) {
   let result = '';
