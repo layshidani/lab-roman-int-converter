@@ -26,7 +26,7 @@ const isValidRoman = function validateRoman(userInput) {
 };
 
 const isValidNumber = function validateNumber(userInput) {
-  if (typeof userInput !== 'int' || userInput === 0) {
+  if (typeof userInput !== 'number' || userInput === 0) {
     return false;
   }
 };
@@ -58,7 +58,7 @@ function intToRoman(number) {
     }
   }
 
-  if (!isValidRoman || result < 1) {
+  if (!isValidNumber || result < 1) {
     return ':/ Número inválido. Tente de novo...';
   } else {
     return 'Resultado: ' + result;
