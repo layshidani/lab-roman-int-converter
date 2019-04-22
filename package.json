@@ -1,0 +1,25 @@
+{
+  "name": "lab-roman-int-converter",
+  "version": "1.0.0",
+  "description": "conversor de algarismos romanos para numero inteiro e vice e versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlays/lab-roman-int-converter-.git"
+  },
+  "keywords": [
+    "javascript",
+    "roman",
+    "roman-int",
+    "converter"
+  ],
+  "author": "Lays M. Hidani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlays/lab-roman-int-converter-/issues"
+  },
+  "homepage": "https://github.com/hlays/lab-roman-int-converter-#readme"
+}
