@@ -65,8 +65,5 @@ function intToRoman(number) {
   }
 }
 
-console.log('romanToInt(xxvi): ', romanToInt('xxvi'));
-console.log('romanToInt(): ', romanToInt(''));
-console.log('intToRoman(28): ', intToRoman(28));
-console.log('intToRoman(0): ', intToRoman(0));
-console.log('intToRoman(): ', intToRoman());
+module.exports = romanToInt;
+module.exports = intToRoman;
