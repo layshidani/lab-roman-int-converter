@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/hlays/lab-roman-int-converter-/issues"
   },
-  "homepage": "https://github.com/hlays/lab-roman-int-converter-#readme"
+  "homepage": "https://github.com/hlays/lab-roman-int-converter-#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "4.2.0",
+    "eslint": "5.16.0",
+    "mocha": "6.1.4",
+    "nyc": "14.0.0"
+  }
 }
