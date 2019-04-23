@@ -1,7 +1,3 @@
-console.log('******************************************************');
-console.log('* Conversor de Algorismos Romanos e Números Inteiros *');
-console.log('******************************************************');
-
 const romans = [
   'M',
   'CM',
@@ -43,7 +39,7 @@ function romanToInt(roman) {
   }
 
   if (!isValidRoman || result < 1) {
-    return ':/ Algarismo inválido. Tente de novo...';
+    return ':/ Algarismo invalido. Tente de novo...';
   } else {
     return 'Resultado: ' + result;
   }
@@ -59,7 +55,7 @@ function intToRoman(number) {
   }
 
   if (!isValidNumber || result < 1) {
-    return ':/ Número inválido. Tente de novo...';
+    return ':/ Numero invalido. Tente de novo...';
   } else {
     return 'Resultado: ' + result;
   }
