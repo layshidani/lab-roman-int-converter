@@ -33,7 +33,6 @@ function romanToInt(roman) {
   let result = 0;
   roman = String(roman).toUpperCase();
 
-
   for (let i in integers) {
     while (roman.indexOf(romans[i]) === 0) {
       result += integers[i];
