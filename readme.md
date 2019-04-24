@@ -52,3 +52,4 @@ Exemplo:
 * converte romanos para inteiros
 * converte inteiros para romanos
 * aceita strings maiúsculas e minúsculas para converter romanos
+* aceita strings e números para converter inteiros para romanos
