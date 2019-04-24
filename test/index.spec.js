@@ -13,16 +13,25 @@ describe('Conversor de Algarismos Romanos para números inteiros e vice e versa'
     it('vazio', () => {
       assert.equal(romanToInt.romanToInt(''), ':/ Algarismo invalido. Tente de novo...');
     });
+    it('20', () => {
+      assert.equal(romanToInt.romanToInt(20), ':/ Algarismo invalido. Tente de novo...');
+    });
   });
   describe('inteiro para romano', () => {
     it('28', () => {
       assert.equal(intToRoman.intToRoman(28), 'Resultado: XXVIII');
     });
+    it('121', () => {
+      assert.equal(intToRoman.intToRoman(121), 'Resultado: CXXI');
+    });
+    it('"121"', () => {
+      assert.equal(intToRoman.intToRoman("121"), 'Resultado: CXXI');
+    });
     it('0', () => {
       assert.equal(intToRoman.intToRoman(0), ':/ Numero invalido. Tente de novo...');
     });
-    it('121', () => {
-      assert.equal(intToRoman.intToRoman(121), 'Resultado: CXXI');
+    it('-1', () => {
+      assert.equal(intToRoman.intToRoman(-1), ':/ Numero invalido. Tente de novo...');
     });
   });
 });

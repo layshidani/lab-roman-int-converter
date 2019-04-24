@@ -16,21 +16,23 @@ const romans = [
 
 const integers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 
-const isValidRoman = function validateRoman(userInput) {
+const isValidRoman = (userInput) => {
   if (typeof userInput !== 'string' || userInput === '') {
     return false;
   }
 };
 
-const isValidNumber = function validateNumber(userInput) {
-  if (typeof userInput !== 'number' || userInput === 0) {
+const isValidNumber = (userInput) => {
+  if (userInput <= 0) {
     return false;
   }
 };
 
 function romanToInt(roman) {
-  roman = roman.toUpperCase();
+  isValidRoman(roman);
   let result = 0;
+  roman = String(roman).toUpperCase();
+
 
   for (let i in integers) {
     while (roman.indexOf(romans[i]) === 0) {
@@ -38,7 +40,6 @@ function romanToInt(roman) {
       roman = roman.replace(romans[i], '');
     }
   }
-
   if (!isValidRoman || result < 1) {
     return ':/ Algarismo invalido. Tente de novo...';
   } else {
@@ -47,6 +48,7 @@ function romanToInt(roman) {
 }
 
 function intToRoman(number) {
+  isValidNumber(number);
   let result = '';
   for (let j in integers) {
     while (number % integers[j] < number) {
@@ -54,7 +56,6 @@ function intToRoman(number) {
       number -= integers[j];
     }
   }
-
   if (!isValidNumber || result < 1) {
     return ':/ Numero invalido. Tente de novo...';
   } else {
