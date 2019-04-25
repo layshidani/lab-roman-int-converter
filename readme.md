@@ -20,7 +20,7 @@ $  npm install lab-roman-int-converter
 > const romanToInt = require('lab-roman-int-converter');
 > console.log(romanToInt('algarismo'));
 ```
-*Formato de entrada da função: sting.*
+*Formato de entrada da função: string.*
 
 Exemplo:
 
@@ -36,7 +36,7 @@ Exemplo:
 > const intToRoman = require('lab-roman-int-converter');
 > console.log(intToRoman(number));
 ```
-*Formato de entrada da função: number.*
+*Formato de entrada da função: números (em string ou number).*
 
 Exemplo:
 
