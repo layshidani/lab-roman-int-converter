@@ -25,30 +25,25 @@ $  npm install lab-roman-int-converter
 Exemplo:
 
 ```
-> const romanToInt = require('lab-roman-int-converter');
-> console.log(romanToInt('Xx'));
-> // 20
+> const romanToInt = require('lab-roman-int-converter.romanToInt');
+> romanToInt('Xx');
+> // return 20
 ```
 
 ### Converter números inteiros para romanos
-
-```
-> const intToRoman = require('lab-roman-int-converter');
-> console.log(intToRoman(number));
-```
 *Formato de entrada da função: números (em string ou number).*
 
 Exemplo:
 
 ```
-> const intToRoman = require('lab-roman-int-converter');
-> console.log(intToRoman(20));
-> // XX
+> const intToRoman = require('lab-roman-int-converter.intToRoman');
+> intToRoman(20);
+> // return XX
 ```
 
 ## Roadmap oficial do projeto
 
-### versão 1.0.0
+### versão 1.0.0 (released)
 * converte romanos para inteiros
 * converte inteiros para romanos
 * aceita strings maiúsculas e minúsculas para converter romanos
