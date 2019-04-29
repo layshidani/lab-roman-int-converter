@@ -4,7 +4,8 @@
   "description": "conversor de algarismos romanos para numero inteiro e vice e versa",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "eslint": "./node_modules/.bin/eslint index.js"
   },
   "repository": {
     "type": "git",
