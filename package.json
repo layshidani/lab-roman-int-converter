@@ -1,6 +1,6 @@
 {
   "name": "lab-roman-int-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "conversor de algarismos romanos para numero inteiro e vice e versa",
   "main": "index.js",
   "scripts": {

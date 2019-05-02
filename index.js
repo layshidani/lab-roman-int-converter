@@ -28,7 +28,7 @@ const isValidNumber = (userInput) => {
   }
 };
 
-function romanToInt(roman) {
+const romanToInt = (roman) => {
   isValidRoman(roman);
   let result = 0;
   roman = String(roman).toUpperCase();
@@ -46,7 +46,7 @@ function romanToInt(roman) {
   }
 }
 
-function intToRoman(number) {
+const intToRoman = (number) => {
   isValidNumber(number);
   let result = '';
   for (let j in integers) {

@@ -1,6 +1,6 @@
 # Conversor de algarismos romanos para arábicos (e vice-versa)
 
-![Lib version](https://img.shields.io/badge/lib-v1.0.2-blue.svg) 
+![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
