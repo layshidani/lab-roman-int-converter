@@ -1,6 +1,6 @@
 # Conversor de algarismos romanos para arábicos (e vice-versa)
 
-![Lib version](https://img.shields.io/badge/lib-v1.0.1-blue.svg) 
+![Lib version](https://img.shields.io/badge/lib-v1.0.2-blue.svg) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
@@ -23,10 +23,10 @@ $  npm install lab-roman-int-converter
 Exemplo:
 
 ```
-> const romanToInt = require('lab-roman-int-converter');
+const romanToInt = require('lab-roman-int-converter');
 
-> console.log(romanToInt.romanToInt('Xx'));
-> // return 20
+console.log(romanToInt.romanToInt('Xx'));
+// return 20
 ```
 
 ### Converter números inteiros para romanos
@@ -35,10 +35,10 @@ Exemplo:
 Exemplo:
 
 ```
-> const intToRoman = require('lab-roman-int-converter');
+const intToRoman = require('lab-roman-int-converter');
 
-> intToRoman.intToRoman(20);
-> // return XX
+console.log(intToRoman.intToRoman(20));
+// return XX
 ```
 
 ## Roadmap oficial do projeto
