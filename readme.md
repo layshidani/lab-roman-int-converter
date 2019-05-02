@@ -1,4 +1,4 @@
-# Conversor de algarismos romanos para arábicos (e vice-versa) v1.0.0
+# Conversor de algarismos romanos para arábicos (e vice-versa)
 
 ![Lib version](https://img.shields.io/badge/lib-v1.0.0-blue.svg) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
@@ -20,6 +20,7 @@ $  npm install lab-roman-int-converter
 
 ```
 > const romanToInt = require('lab-roman-int-converter');
+
 > console.log(romanToInt('algarismo'));
 ```
 *Formato de entrada da função: string.*
@@ -28,6 +29,7 @@ Exemplo:
 
 ```
 > const romanToInt = require('lab-roman-int-converter.romanToInt');
+
 > romanToInt('Xx');
 > // return 20
 ```
@@ -48,5 +50,5 @@ Exemplo:
 ### versão 1.0.0 (released)
 * converte romanos para inteiros
 * converte inteiros para romanos
-* aceita strings maiúsculas e minúsculas para converter romanos
+* aceita strings maiúsculas e minúsculas para converter romanos para números inteiros
 * aceita strings e números para converter inteiros para romanos
