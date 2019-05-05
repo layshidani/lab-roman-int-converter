@@ -10,7 +10,7 @@ Esta biblioteca se destina a converter algarismos romanos para números inteiros
 
 ## Como instalar:
 
-```
+```bash
 $  npm install lab-roman-int-converter
 ```
 
@@ -22,7 +22,7 @@ $  npm install lab-roman-int-converter
 
 Exemplo:
 
-```
+```node
 const romanToInt = require('lab-roman-int-converter');
 
 console.log(romanToInt.romanToInt('Xx'));
