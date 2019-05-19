@@ -1,8 +1,10 @@
 # Conversor de algarismos romanos para arábicos (e vice-versa)
 
+
+
 [![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-roman-int-converter)
-![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg)
-![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/hlays/lab-roman-int-converter.svg)![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
+
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
 ![chai](https://img.shields.io/badge/-chai-orange.svg)

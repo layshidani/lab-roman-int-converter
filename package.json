@@ -4,8 +4,10 @@
   "description": "conversor de algarismos romanos para numero inteiro e vice e versa",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
-    "eslint": "./node_modules/.bin/eslint index.js"
+    "lint": "./node_modules/.bin/eslint lib/index.js",
+    "test": "mocha",
+    "test:coverage": "nyc npm test",
+    "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
