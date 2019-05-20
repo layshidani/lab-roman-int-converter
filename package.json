@@ -27,7 +27,7 @@
   "homepage": "https://github.com/hlays/lab-roman-int-converter-#readme",
   "dependencies": {},
   "devDependencies": {
-    "chai": "4.2.0",
+    "chai": "^4.2.0",
     "eslint": "5.16.0",
     "gitignore": "^0.6.0",
     "husky": "1.3.1",
