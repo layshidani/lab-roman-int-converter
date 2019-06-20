@@ -30,7 +30,7 @@ Exemplo:
 ```node
 const romanToInt = require('lab-roman-int-converter');
 
-console.log(romanToInt.romanToInt('Xx'));
+console.log(romanToInt('Xx'));
 // return 20
 ```
 
@@ -39,10 +39,10 @@ console.log(romanToInt.romanToInt('Xx'));
 
 Exemplo:
 
-```
+```node
 const intToRoman = require('lab-roman-int-converter');
 
-console.log(intToRoman.intToRoman(20));
+console.log(intToRoman(20));
 // return XX
 ```
 
