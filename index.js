@@ -1,35 +1,24 @@
-const romans = [
-  'M',
-  'CM',
-  'D',
-  'CD',
-  'C',
-  'XC',
-  'L',
-  'XL',
-  'X',
-  'IX',
-  'V',
-  'IV',
-  'I'
-];
-
+const romans = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
 const integers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 
 const isValidRoman = (userInput) => {
-  if (typeof userInput !== 'string' || userInput === '') {
+  const invalidInput = typeof userInput !== 'string' || userInput === '';
+
+  if (invalidInput) {
     return false;
   }
 };
 
 const isValidNumber = (userInput) => {
-  if (userInput <= 0) {
+  const invalidInput = userInput <= 0;
+  if (invalidInput) {
     return false;
   }
 };
 
 const romanToInt = (roman) => {
   isValidRoman(roman);
+
   let result = 0;
   roman = String(roman).toUpperCase();
 
@@ -48,6 +37,7 @@ const romanToInt = (roman) => {
 
 const intToRoman = (number) => {
   isValidNumber(number);
+
   let result = '';
   for (let j in integers) {
     while (number % integers[j] < number) {
@@ -55,6 +45,7 @@ const intToRoman = (number) => {
       number -= integers[j];
     }
   }
+
   if (!isValidNumber || result < 1) {
     return ':/ Numero invalido. Tente de novo...';
   } else {
@@ -62,5 +53,4 @@ const intToRoman = (number) => {
   }
 }
 
-module.exports.romanToInt = romanToInt;
-module.exports.intToRoman = intToRoman;
+module.exports = { romanToInt, intToRoman };
