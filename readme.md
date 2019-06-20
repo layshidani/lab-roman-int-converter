@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/layshidani/lab-roman-int-converter/badge.svg?branch=master)](https://coveralls.io/github/layshidani/lab-roman-int-converter?branch=master)
 
 [![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-roman-int-converter)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/hlays/lab-roman-int-converter.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/layshidani/lab-roman-int-converter.svg)
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
