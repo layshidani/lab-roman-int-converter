@@ -27,9 +27,9 @@ $  npm install lab-roman-int-converter
 Exemplo:
 
 ```node
-const romanToInt = require('lab-roman-int-converter');
+const convert = require('lab-roman-int-converter');
 
-romanToInt('Xx');
+convert.romanToInt('Xx');
 // return 20
 ```
 
@@ -39,9 +39,9 @@ romanToInt('Xx');
 Exemplo:
 
 ```node
-const intToRoman = require('lab-roman-int-converter');
+const convert = require('lab-roman-int-converter');
 
-intToRoman(20);
+convert.intToRoman(20);
 // return XX
 ```
 
