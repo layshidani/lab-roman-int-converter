@@ -25,8 +25,8 @@ describe('Conversor de Algarismos Romanos para números inteiros e vice e versa'
     it('121', () => {
       assert.equal(intToRoman(121), 'Resultado: CXXI');
     });
-    it('"121"', () => {
-      assert.equal(intToRoman("121"), 'Resultado: CXXI');
+    it(''121'', () => {
+      assert.equal(intToRoman('121'), 'Resultado: CXXI');
     });
     it('0', () => {
       assert.equal(intToRoman(0), ':/ Numero invalido. Tente de novo...');
