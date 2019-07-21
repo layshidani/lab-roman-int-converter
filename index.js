@@ -3,17 +3,12 @@ const integers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 
 const isValidRoman = (userInput) => {
   const invalidInput = typeof userInput !== 'string' || userInput === '';
-
-  if (invalidInput) {
-    return false;
-  }
+  return invalidInput ? false : true; 
 };
 
 const isValidNumber = (userInput) => {
   const invalidInput = userInput <= 0;
-  if (invalidInput) {
-    return false;
-  }
+  return invalidInput ? false : true;
 };
 
 const romanToInt = (roman) => {
@@ -28,11 +23,7 @@ const romanToInt = (roman) => {
       roman = roman.replace(romans[i], '');
     }
   }
-  if (!isValidRoman || result < 1) {
-    return ':/ Algarismo invalido. Tente de novo...';
-  } else {
-    return 'Resultado: ' + result;
-  }
+  return (!isValidRoman || result < 1) ? ':/ Algarismo invalido. Tente de novo...' : 'Resultado: ' + result;
 }
 
 const intToRoman = (number) => {
@@ -46,11 +37,7 @@ const intToRoman = (number) => {
     }
   }
 
-  if (!isValidNumber || result < 1) {
-    return ':/ Numero invalido. Tente de novo...';
-  } else {
-    return 'Resultado: ' + result;
-  }
+  return (!isValidNumber || result < 1) ? ':/ Numero invalido. Tente de novo...' : 'Resultado: ' + result;
 }
 
 module.exports = { romanToInt, intToRoman };
