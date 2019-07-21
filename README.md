@@ -19,6 +19,20 @@ $  npm install lab-roman-int-converter
 ```
 
 ## Como utilizar:
+Digite os comandos no terminal:
+
+```node
+node
+```
+
+
+### Importar módulo
+
+```node
+const convert = require('lab-roman-int-converter');
+```
+
+Agora basta escolher entre as operações de conversão de *romano para inteiro* ou de *inteiro para romando* conforme exemplos abaixo.
 
 ### Converter algarismos romanos
 
@@ -27,8 +41,6 @@ $  npm install lab-roman-int-converter
 Exemplo:
 
 ```node
-const convert = require('lab-roman-int-converter');
-
 convert.romanToInt('Xx');
 // return 20
 ```
@@ -39,8 +51,6 @@ convert.romanToInt('Xx');
 Exemplo:
 
 ```node
-const convert = require('lab-roman-int-converter');
-
 convert.intToRoman(20);
 // return XX
 ```
